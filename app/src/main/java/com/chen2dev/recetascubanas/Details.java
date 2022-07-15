@@ -30,7 +30,6 @@ public class Details extends AppCompatActivity {
         final String encoding = "UTF-8";
 
         contentView.loadDataWithBaseURL("",content,mimeType,encoding,"");
-       // Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
 
     }
 

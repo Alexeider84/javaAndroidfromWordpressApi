@@ -1,11 +1,11 @@
-package com.chen2dev.recetascubanas;
+package com.chen2dev.recetascubanas.model;
 
 public class Post {
     private String title;
     private String content;
     private String excerpt;
     private String tags;
-    private String categories;
+    private Integer categories;
     private String feature_image;
 
     public String getTitle() {
@@ -40,11 +40,11 @@ public class Post {
         this.tags = tags;
     }
 
-    public String getCategories() {
+    public Integer getCategories() {
         return categories;
     }
 
-    public void setCategories(String categories) {
+    public void setCategories(Integer categories) {
         this.categories = categories;
     }
 
